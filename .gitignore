@@ -1,0 +1,29 @@
+# NPM / Node (preventative — bmad install via npx but leaves no artifacts)
+node_modules/
+npm-debug.log*
+package-lock.json
+package.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Env
+.env
+.env.*
+
+# Database
+*.db
+*.sqlite
